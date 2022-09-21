@@ -1,12 +1,12 @@
-## fromto
+# fromto
 
 ### Instructions
 
-- Write a function that takes two `integers` and returns a string representing the range of numbers from the first to the second.
+- Write a function that takes two `integers` and returns a `string` representing the range of numbers from the first to the second.
 - The function can return the numbers in any order.
 - The number must be separated by a comma and a space.
 - If any of the arguments is bigger than 99 or less than 0, the function returns `"invalid"` followed by a newline (`'\n'`).
-- Add `0` at the first of any number if it is less than 10.  
+- Add `0` at the first of any number if it is less than 10.
 - Add a new line (`'\n'`) at the end of the string.
 
 ### Expected function
@@ -18,7 +18,7 @@ func FromTo(from int, to int) string {
 
 ### Usage
 
-Here is a possible program to test your function :
+Here is a possible program to test your function:
 
 ```go
 package main
@@ -26,13 +26,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print(FromTo(1, 10))
-	fmt.Print(FromTo(10, 1))
-	fmt.Print(FromTo(10, 10))
-	fmt.Print(FromTo(100, 10))
+  fmt.Print(FromTo(1, 10))
+  fmt.Print(FromTo(10, 1))
+  fmt.Print(FromTo(10, 10))
+  fmt.Print(FromTo(100, 10))
 }
 ```
-And its output :
+And its output:
 
 ```console
 $ go run . | cat -e
