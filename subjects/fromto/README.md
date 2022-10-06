@@ -11,6 +11,7 @@ Write a function that takes two `integers` and returns a `string` representing t
 - Add a new line `\n` at the end of the `string`.
 
 ### Expected function
+
 ```go
 func FromTo(from int, to int) string {
 
@@ -25,16 +26,17 @@ Here is a possible program to test your function:
 package main
 
 import (
-        "fmt"
-        "piscine"
+	"fmt"
+	"piscine"
 )
 
 func main() {
-        fmt.Print(piscine.FromTo(1, 10))
-        fmt.Print(piscine.FromTo(10, 1))
-        fmt.Print(piscine.FromTo(10, 10))
-        fmt.Print(piscine.FromTo(100, 10))
+	fmt.Print(piscine.FromTo(1, 10))
+	fmt.Print(piscine.FromTo(10, 1))
+	fmt.Print(piscine.FromTo(10, 10))
+	fmt.Print(piscine.FromTo(100, 10))
 }
+
 ```
 And its output:
 
